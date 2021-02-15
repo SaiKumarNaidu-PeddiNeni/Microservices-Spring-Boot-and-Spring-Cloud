@@ -1,0 +1,67 @@
+2020-12-30 09:20:11.442  INFO 11348 --- [main] .d.SpringStsDepartmentdetailsApplication : Starting SpringStsDepartmentdetailsApplication using Java 15.0.1 on DESKTOP-8Q96CNP with PID 11348 (C:\Users\it\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\SpringSTSDepartmentdetails\target\classes started by it in C:\Users\it\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\SpringSTSDepartmentdetails)
+2020-12-30 09:20:11.455  INFO 11348 --- [main] .d.SpringStsDepartmentdetailsApplication : No active profile set, falling back to default profiles: default
+2020-12-30 09:20:12.316  INFO 11348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 09:20:12.375  INFO 11348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2020-12-30 09:20:12.902  INFO 11348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2020-12-30 09:20:12.914  INFO 11348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 09:20:12.914  INFO 11348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 09:20:12.915  INFO 11348 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2020-12-30 09:20:12.916  INFO 11348 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-30 09:20:12.917  INFO 11348 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-30 09:20:12.920  INFO 11348 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-30 09:20:13.060  INFO 11348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 09:20:13.060  INFO 11348 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1535 ms
+2020-12-30 09:20:13.324  INFO 11348 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 09:20:13.387  INFO 11348 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2020-12-30 09:20:13.549  INFO 11348 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-30 09:20:13.687  INFO 11348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-30 09:20:14.966  INFO 11348 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-30 09:20:15.059  INFO 11348 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-30 09:20:17.830  INFO 11348 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 09:20:17.862  INFO 11348 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 09:20:18.517  WARN 11348 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 09:20:18.646  INFO 11348 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 09:20:18.939  INFO 11348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2020-12-30 09:20:18.947  INFO 11348 --- [main] .d.SpringStsDepartmentdetailsApplication : Started SpringStsDepartmentdetailsApplication in 8.099 seconds (JVM running for 9.236)
+2020-12-30 09:21:52.138  INFO 11348 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 09:21:52.142  INFO 11348 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 09:21:52.147  INFO 11348 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-12-30 09:46:49.155  WARN 11348 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m34s197ms546µs700ns).
+2020-12-30 09:49:31.333  INFO 11348 --- [RMI TCP Connection(32)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-12-30 09:49:31.441  INFO 11348 --- [RMI TCP Connection(32)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 09:49:31.443  INFO 11348 --- [RMI TCP Connection(32)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 09:49:31.451  INFO 11348 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-30 09:49:31.711  INFO 11348 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-30 09:51:46.250  INFO 21332 --- [main] .d.SpringStsDepartmentdetailsApplication : Starting SpringStsDepartmentdetailsApplication using Java 15.0.1 on DESKTOP-8Q96CNP with PID 21332 (C:\Users\it\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\SpringSTSDepartmentdetails\target\classes started by it in C:\Users\it\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\SpringSTSDepartmentdetails)
+2020-12-30 09:51:46.254  INFO 21332 --- [main] .d.SpringStsDepartmentdetailsApplication : No active profile set, falling back to default profiles: default
+2020-12-30 09:51:46.994  INFO 21332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-30 09:51:47.054  INFO 21332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2020-12-30 09:51:47.586  INFO 21332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2020-12-30 09:51:47.597  INFO 21332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 09:51:47.597  INFO 21332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 09:51:47.599  INFO 21332 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2020-12-30 09:51:47.599  INFO 21332 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-30 09:51:47.599  INFO 21332 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-30 09:51:47.603  INFO 21332 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-30 09:51:47.790  INFO 21332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 09:51:47.790  INFO 21332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1465 ms
+2020-12-30 09:51:48.047  INFO 21332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-30 09:51:48.107  INFO 21332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2020-12-30 09:51:48.266  INFO 21332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-30 09:51:48.387  INFO 21332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-30 09:51:49.184  INFO 21332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-30 09:51:49.229  INFO 21332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-30 09:51:50.535  INFO 21332 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-30 09:51:50.546  INFO 21332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 09:51:51.235  WARN 21332 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-30 09:51:51.373  INFO 21332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 09:51:51.640  INFO 21332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2020-12-30 09:51:51.648  INFO 21332 --- [main] .d.SpringStsDepartmentdetailsApplication : Started SpringStsDepartmentdetailsApplication in 5.844 seconds (JVM running for 6.915)
+2020-12-30 09:51:57.678  INFO 21332 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 09:51:57.682  INFO 21332 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 09:51:57.690  INFO 21332 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-30 09:52:10.605  INFO 21332 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-12-30 09:52:10.643  INFO 21332 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 09:52:10.644  INFO 21332 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-30 09:52:10.649  INFO 21332 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-30 09:52:10.727  INFO 21332 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
